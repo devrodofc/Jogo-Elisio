@@ -1,0 +1,118 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b6phndy4iq16"]
+
+[ext_resource type="Texture2D" uid="uid://ly378slx718c" path="res://assets/characters/warrior/classic/idle/warrior_idle_sheet_v1.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="Atlas_e"]
+atlas = ExtResource("1")
+region = Rect2(1000, 29, 198, 377)
+margin = Rect2(148, 77, 314, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_n"]
+atlas = ExtResource("1")
+region = Rect2(97, 31, 246, 372)
+margin = Rect2(131, 82, 266, 140)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_ne"]
+atlas = ExtResource("1")
+region = Rect2(547, 29, 234, 377)
+margin = Rect2(138, 77, 278, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_nw"]
+atlas = ExtResource("1")
+region = Rect2(1441, 474, 224, 377)
+margin = Rect2(145, 77, 288, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_s"]
+atlas = ExtResource("1")
+region = Rect2(91, 475, 252, 374)
+margin = Rect2(125, 80, 260, 138)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_se"]
+atlas = ExtResource("1")
+region = Rect2(1430, 29, 240, 377)
+margin = Rect2(134, 77, 272, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_sw"]
+atlas = ExtResource("1")
+region = Rect2(539, 474, 231, 375)
+margin = Rect2(130, 79, 281, 137)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_w"]
+atlas = ExtResource("1")
+region = Rect2(1005, 474, 209, 377)
+margin = Rect2(152, 77, 303, 135)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("Atlas_e")
+}],
+"loop": 1,
+"name": &"idle_e",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("Atlas_n")
+}],
+"loop": 1,
+"name": &"idle_n",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("Atlas_ne")
+}],
+"loop": 1,
+"name": &"idle_ne",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("Atlas_nw")
+}],
+"loop": 1,
+"name": &"idle_nw",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("Atlas_s")
+}],
+"loop": 1,
+"name": &"idle_s",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("Atlas_se")
+}],
+"loop": 1,
+"name": &"idle_se",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("Atlas_sw")
+}],
+"loop": 1,
+"name": &"idle_sw",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("Atlas_w")
+}],
+"loop": 1,
+"name": &"idle_w",
+"speed": 5.0
+}]

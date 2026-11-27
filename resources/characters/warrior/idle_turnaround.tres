@@ -1,0 +1,161 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dmga3xumxoitf"]
+
+[ext_resource type="Texture2D" uid="uid://ly378slx718c" path="res://assets/characters/warrior/classic/idle/warrior_idle_sheet_v1.png" id="classic"]
+[ext_resource type="Texture2D" uid="uid://b3mqthtdfa36r" path="res://assets/characters/warrior/isometric/idle/warrior_idle_sheet_v1.png" id="isometric"]
+
+[sub_resource type="AtlasTexture" id="isometric_n"]
+atlas = ExtResource("isometric")
+region = Rect2(95, 42, 257, 366)
+margin = Rect2(129, 88, 255, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne"]
+atlas = ExtResource("isometric")
+region = Rect2(542, 42, 259, 366)
+margin = Rect2(132, 88, 253, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e"]
+atlas = ExtResource("isometric")
+region = Rect2(986, 42, 229, 366)
+margin = Rect2(134, 88, 283, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se"]
+atlas = ExtResource("isometric")
+region = Rect2(1429, 42, 250, 366)
+margin = Rect2(133, 88, 262, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s"]
+atlas = ExtResource("isometric")
+region = Rect2(94, 485, 255, 366)
+margin = Rect2(128, 88, 257, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw"]
+atlas = ExtResource("isometric")
+region = Rect2(531, 485, 250, 366)
+margin = Rect2(122, 88, 262, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w"]
+atlas = ExtResource("isometric")
+region = Rect2(987, 485, 228, 367)
+margin = Rect2(134, 87, 284, 145)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw"]
+atlas = ExtResource("isometric")
+region = Rect2(1427, 485, 255, 367)
+margin = Rect2(131, 87, 257, 145)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n"]
+atlas = ExtResource("classic")
+region = Rect2(97, 31, 246, 372)
+margin = Rect2(131, 82, 266, 140)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne"]
+atlas = ExtResource("classic")
+region = Rect2(547, 29, 234, 377)
+margin = Rect2(138, 77, 278, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e"]
+atlas = ExtResource("classic")
+region = Rect2(1000, 29, 198, 377)
+margin = Rect2(148, 77, 314, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se"]
+atlas = ExtResource("classic")
+region = Rect2(1430, 29, 240, 377)
+margin = Rect2(134, 77, 272, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s"]
+atlas = ExtResource("classic")
+region = Rect2(91, 475, 252, 374)
+margin = Rect2(125, 80, 260, 138)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw"]
+atlas = ExtResource("classic")
+region = Rect2(539, 474, 231, 375)
+margin = Rect2(130, 79, 281, 137)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w"]
+atlas = ExtResource("classic")
+region = Rect2(1005, 474, 209, 377)
+margin = Rect2(152, 77, 303, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw"]
+atlas = ExtResource("classic")
+region = Rect2(1441, 474, 224, 377)
+margin = Rect2(145, 77, 288, 135)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("isometric_n")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_ne")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_e")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_se")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_s")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_sw")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_w")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_nw")
+}],
+"loop": 1,
+"name": &"idle_isometrico",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("classic_n")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_ne")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_e")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_se")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_s")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_sw")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_w")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_nw")
+}],
+"loop": 1,
+"name": &"idle_normal",
+"speed": 4.0
+}]

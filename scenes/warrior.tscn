@@ -1,0 +1,325 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/characters/warrior.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/warrior_lab.gd" id="2"]
+[ext_resource type="SpriteFrames" path="res://resources/characters/warrior/classic_idle.tres" id="3"]
+[ext_resource type="SpriteFrames" path="res://resources/characters/warrior/isometric_idle.tres" id="4"]
+[ext_resource type="Texture2D" path="res://sprite-teste.jpeg" id="5"]
+
+[ext_resource type="SpriteFrames" path="res://resources/characters/warrior/classic_walk.tres" id="6"]
+[ext_resource type="SpriteFrames" path="res://resources/characters/warrior/isometric_walk.tres" id="7"]
+
+[sub_resource type="AtlasTexture" id="Reference"]
+atlas = ExtResource("5")
+region = Rect2(32, 106, 209, 313)
+
+[sub_resource type="StyleBoxFlat" id="Card"]
+bg_color = Color(0.09, 0.115, 0.16, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.26, 0.35, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_left = 6
+corner_radius_bottom_right = 6
+
+[node name="WarriorLab" type="Node2D"]
+texture_filter = 1
+script = ExtResource("2")
+classic_frames = ExtResource("3")
+isometric_frames = ExtResource("4")
+classic_walk_frames = ExtResource("6")
+isometric_walk_frames = ExtResource("7")
+
+[node name="Warrior" parent="." instance=ExtResource("1")]
+position = Vector2(106, 262)
+
+[node name="OriginCross" type="Line2D" parent="."]
+points = PackedVector2Array(94, 262, 118, 262, 106, 262, 106, 269, 106, 255)
+width = 1.0
+default_color = Color(0.4, 0.8, 0.8, 0.7)
+
+[node name="Previews" type="Node2D" parent="."]
+
+[node name="Pose0" type="AnimatedSprite2D" parent="Previews"]
+position = Vector2(370, 182)
+scale = Vector2(0.16, 0.16)
+sprite_frames = ExtResource("3")
+animation = &"idle_n"
+centered = false
+offset = Vector2(-256, -448)
+
+[node name="Pose1" type="AnimatedSprite2D" parent="Previews"]
+position = Vector2(438, 182)
+scale = Vector2(0.16, 0.16)
+sprite_frames = ExtResource("3")
+animation = &"idle_ne"
+centered = false
+offset = Vector2(-256, -448)
+
+[node name="Pose2" type="AnimatedSprite2D" parent="Previews"]
+position = Vector2(506, 182)
+scale = Vector2(0.16, 0.16)
+sprite_frames = ExtResource("3")
+animation = &"idle_e"
+centered = false
+offset = Vector2(-256, -448)
+
+[node name="Pose3" type="AnimatedSprite2D" parent="Previews"]
+position = Vector2(574, 182)
+scale = Vector2(0.16, 0.16)
+sprite_frames = ExtResource("3")
+animation = &"idle_se"
+centered = false
+offset = Vector2(-256, -448)
+
+[node name="Pose4" type="AnimatedSprite2D" parent="Previews"]
+position = Vector2(370, 294)
+scale = Vector2(0.16, 0.16)
+sprite_frames = ExtResource("3")
+animation = &"idle_s"
+centered = false
+offset = Vector2(-256, -448)
+
+[node name="Pose5" type="AnimatedSprite2D" parent="Previews"]
+position = Vector2(438, 294)
+scale = Vector2(0.16, 0.16)
+sprite_frames = ExtResource("3")
+animation = &"idle_sw"
+centered = false
+offset = Vector2(-256, -448)
+
+[node name="Pose6" type="AnimatedSprite2D" parent="Previews"]
+position = Vector2(506, 294)
+scale = Vector2(0.16, 0.16)
+sprite_frames = ExtResource("3")
+animation = &"idle_w"
+centered = false
+offset = Vector2(-256, -448)
+
+[node name="Pose7" type="AnimatedSprite2D" parent="Previews"]
+position = Vector2(574, 294)
+scale = Vector2(0.16, 0.16)
+sprite_frames = ExtResource("3")
+animation = &"idle_nw"
+centered = false
+offset = Vector2(-256, -448)
+
+[node name="Interface" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Control" parent="Interface"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Interface/Panel"]
+offset_left = 20.0
+offset_top = 10.0
+offset_right = 480.0
+offset_bottom = 40.0
+theme_override_font_sizes/font_size = 21
+text = "WARRIOR / Estudo de direções"
+
+[node name="Subtitle" type="Label" parent="Interface/Panel"]
+offset_left = 20.0
+offset_top = 40.0
+offset_right = 600.0
+offset_bottom = 60.0
+theme_override_colors/font_color = Color(0.62, 0.72, 0.84, 1)
+theme_override_font_sizes/font_size = 12
+text = "Idle + Walk • 8 direções • Clássico e isométrico"
+
+[node name="Perspective" type="OptionButton" parent="Interface/Panel"]
+offset_left = 20.0
+offset_top = 72.0
+offset_right = 195.0
+offset_bottom = 99.0
+theme_override_font_sizes/font_size = 13
+item_count = 2
+selected = 0
+popup/item_0/text = "Clássico"
+popup/item_0/id = 0
+popup/item_1/text = "Isométrico"
+popup/item_1/id = 1
+
+[node name="Direction" type="OptionButton" parent="Interface/Panel"]
+offset_left = 205.0
+offset_top = 72.0
+offset_right = 275.0
+offset_bottom = 99.0
+theme_override_font_sizes/font_size = 13
+item_count = 8
+selected = 4
+popup/item_0/text = "N"
+popup/item_0/id = 0
+popup/item_1/text = "NE"
+popup/item_1/id = 1
+popup/item_2/text = "E"
+popup/item_2/id = 2
+popup/item_3/text = "SE"
+popup/item_3/id = 3
+popup/item_4/text = "S"
+popup/item_4/id = 4
+popup/item_5/text = "SW"
+popup/item_5/id = 5
+popup/item_6/text = "W"
+popup/item_6/id = 6
+popup/item_7/text = "NW"
+popup/item_7/id = 7
+
+[node name="PreviewTitle" type="Label" parent="Interface/Panel"]
+offset_left = 20.0
+offset_top = 111.0
+offset_right = 210.0
+offset_bottom = 131.0
+theme_override_font_sizes/font_size = 11
+text = "POSE SELECIONADA"
+
+[node name="ReferenceTitle" type="Label" parent="Interface/Panel"]
+offset_left = 214.0
+offset_top = 111.0
+offset_right = 329.0
+offset_bottom = 131.0
+theme_override_font_sizes/font_size = 11
+text = "REFERÊNCIA"
+
+[node name="AllTitle" type="Label" parent="Interface/Panel"]
+offset_left = 342.0
+offset_top = 72.0
+offset_right = 602.0
+offset_bottom = 95.0
+theme_override_font_sizes/font_size = 13
+text = "OITO DIREÇÕES"
+
+[node name="ReferenceImage" type="TextureRect" parent="Interface/Panel"]
+offset_left = 232.0
+offset_top = 172.0
+offset_right = 290.0
+offset_bottom = 259.0
+texture = SubResource("Reference")
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="PoseLabel" type="Label" parent="Interface/Panel"]
+offset_left = 20.0
+offset_top = 282.0
+offset_right = 320.0
+offset_bottom = 302.0
+theme_override_font_sizes/font_size = 12
+text = "Clássico / idle_s"
+
+[node name="ZoomTitle" type="Label" parent="Interface/Panel"]
+offset_left = 20.0
+offset_top = 310.0
+offset_right = 62.0
+offset_bottom = 330.0
+theme_override_font_sizes/font_size = 11
+text = "Zoom"
+
+[node name="Zoom" type="HSlider" parent="Interface/Panel"]
+offset_left = 66.0
+offset_top = 312.0
+offset_right = 194.0
+offset_bottom = 330.0
+min_value = 1.0
+max_value = 1.5
+step = 0.25
+value = 1.0
+
+[node name="Help" type="Label" parent="Interface/Panel"]
+offset_left = 214.0
+offset_top = 311.0
+offset_right = 624.0
+offset_bottom = 331.0
+theme_override_font_sizes/font_size = 11
+text = "Setas: direção  •  Tab: perspectiva"
+
+[node name="Footer" type="Label" parent="Interface/Panel"]
+offset_left = 20.0
+offset_top = 338.0
+offset_right = 630.0
+offset_bottom = 356.0
+theme_override_colors/font_color = Color(0.62, 0.72, 0.84, 1)
+theme_override_font_sizes/font_size = 11
+text = "Walk: 8 frames por direção. Ative Walk para comparar os ciclos."
+
+[node name="DirectionLabel0" type="Label" parent="Interface/Panel"]
+offset_left = 355.0
+offset_top = 189.0
+offset_right = 415.0
+offset_bottom = 209.0
+theme_override_font_sizes/font_size = 11
+text = "N"
+
+[node name="DirectionLabel1" type="Label" parent="Interface/Panel"]
+offset_left = 423.0
+offset_top = 189.0
+offset_right = 483.0
+offset_bottom = 209.0
+theme_override_font_sizes/font_size = 11
+text = "NE"
+
+[node name="DirectionLabel2" type="Label" parent="Interface/Panel"]
+offset_left = 491.0
+offset_top = 189.0
+offset_right = 551.0
+offset_bottom = 209.0
+theme_override_font_sizes/font_size = 11
+text = "E"
+
+[node name="DirectionLabel3" type="Label" parent="Interface/Panel"]
+offset_left = 559.0
+offset_top = 189.0
+offset_right = 619.0
+offset_bottom = 209.0
+theme_override_font_sizes/font_size = 11
+text = "SE"
+
+[node name="DirectionLabel4" type="Label" parent="Interface/Panel"]
+offset_left = 355.0
+offset_top = 301.0
+offset_right = 415.0
+offset_bottom = 321.0
+theme_override_font_sizes/font_size = 11
+text = "S"
+
+[node name="DirectionLabel5" type="Label" parent="Interface/Panel"]
+offset_left = 423.0
+offset_top = 301.0
+offset_right = 483.0
+offset_bottom = 321.0
+theme_override_font_sizes/font_size = 11
+text = "SW"
+
+[node name="DirectionLabel6" type="Label" parent="Interface/Panel"]
+offset_left = 491.0
+offset_top = 301.0
+offset_right = 551.0
+offset_bottom = 321.0
+theme_override_font_sizes/font_size = 11
+text = "W"
+
+[node name="DirectionLabel7" type="Label" parent="Interface/Panel"]
+offset_left = 559.0
+offset_top = 301.0
+offset_right = 619.0
+offset_bottom = 321.0
+theme_override_font_sizes/font_size = 11
+text = "NW"
+
+[node name="Walk" type="Button" parent="Interface/Panel"]
+offset_left = 282.0
+offset_top = 72.0
+offset_right = 336.0
+offset_bottom = 99.0
+tooltip_text = "Alternar Idle / Walk nas oito direções"
+theme_override_font_sizes/font_size = 12
+toggle_mode = true
+text = "Walk"

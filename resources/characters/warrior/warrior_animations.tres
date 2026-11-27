@@ -1,0 +1,1180 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" uid="uid://ly378slx718c" path="res://assets/characters/warrior/classic/idle/warrior_idle_sheet_v1.png" id="classic"]
+
+[ext_resource type="Texture2D" uid="uid://b3mqthtdfa36r" path="res://assets/characters/warrior/isometric/idle/warrior_idle_sheet_v1.png" id="isometric"]
+
+[ext_resource type="Texture2D" path="res://assets/characters/warrior/walk/n/warrior_walk_n_v1.png" id="walk_n"]
+
+[ext_resource type="Texture2D" path="res://assets/characters/warrior/walk/ne/warrior_walk_ne_v1.png" id="walk_ne"]
+
+[ext_resource type="Texture2D" path="res://assets/characters/warrior/walk/e/warrior_walk_e_v1.png" id="walk_e"]
+
+[ext_resource type="Texture2D" path="res://assets/characters/warrior/walk/se/warrior_walk_se_v1.png" id="walk_se"]
+
+[ext_resource type="Texture2D" path="res://assets/characters/warrior/walk/s/warrior_walk_s_v1.png" id="walk_s"]
+
+[ext_resource type="Texture2D" path="res://assets/characters/warrior/walk/sw/warrior_walk_sw_v1.png" id="walk_sw"]
+
+[ext_resource type="Texture2D" path="res://assets/characters/warrior/walk/w/warrior_walk_w_v1.png" id="walk_w"]
+
+[ext_resource type="Texture2D" path="res://assets/characters/warrior/walk/nw/warrior_walk_nw_v1.png" id="walk_nw"]
+
+[sub_resource type="AtlasTexture" id="isometric_n"]
+atlas = ExtResource("isometric")
+region = Rect2(95, 42, 257, 366)
+margin = Rect2(129, 88, 255, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne"]
+atlas = ExtResource("isometric")
+region = Rect2(542, 42, 259, 366)
+margin = Rect2(132, 88, 253, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e"]
+atlas = ExtResource("isometric")
+region = Rect2(986, 42, 229, 366)
+margin = Rect2(134, 88, 283, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se"]
+atlas = ExtResource("isometric")
+region = Rect2(1429, 42, 250, 366)
+margin = Rect2(133, 88, 262, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s"]
+atlas = ExtResource("isometric")
+region = Rect2(94, 485, 255, 366)
+margin = Rect2(128, 88, 257, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw"]
+atlas = ExtResource("isometric")
+region = Rect2(531, 485, 250, 366)
+margin = Rect2(122, 88, 262, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w"]
+atlas = ExtResource("isometric")
+region = Rect2(987, 485, 228, 367)
+margin = Rect2(134, 87, 284, 145)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw"]
+atlas = ExtResource("isometric")
+region = Rect2(1427, 485, 255, 367)
+margin = Rect2(131, 87, 257, 145)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n"]
+atlas = ExtResource("classic")
+region = Rect2(97, 31, 246, 372)
+margin = Rect2(131, 82, 266, 140)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne"]
+atlas = ExtResource("classic")
+region = Rect2(547, 29, 234, 377)
+margin = Rect2(138, 77, 278, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e"]
+atlas = ExtResource("classic")
+region = Rect2(1000, 29, 198, 377)
+margin = Rect2(148, 77, 314, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se"]
+atlas = ExtResource("classic")
+region = Rect2(1430, 29, 240, 377)
+margin = Rect2(134, 77, 272, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s"]
+atlas = ExtResource("classic")
+region = Rect2(91, 475, 252, 374)
+margin = Rect2(125, 80, 260, 138)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw"]
+atlas = ExtResource("classic")
+region = Rect2(539, 474, 231, 375)
+margin = Rect2(130, 79, 281, 137)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w"]
+atlas = ExtResource("classic")
+region = Rect2(1005, 474, 209, 377)
+margin = Rect2(152, 77, 303, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw"]
+atlas = ExtResource("classic")
+region = Rect2(1441, 474, 224, 377)
+margin = Rect2(145, 77, 288, 135)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n_0"]
+atlas = ExtResource("walk_n")
+region = Rect2(68, 15, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n_1"]
+atlas = ExtResource("walk_n")
+region = Rect2(382, 15, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n_2"]
+atlas = ExtResource("walk_n")
+region = Rect2(695, 15, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n_3"]
+atlas = ExtResource("walk_n")
+region = Rect2(1008, 15, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n_4"]
+atlas = ExtResource("walk_n")
+region = Rect2(68, 329, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n_5"]
+atlas = ExtResource("walk_n")
+region = Rect2(382, 329, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n_6"]
+atlas = ExtResource("walk_n")
+region = Rect2(695, 329, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_n_7"]
+atlas = ExtResource("walk_n")
+region = Rect2(1008, 329, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_n_0"]
+atlas = ExtResource("walk_n")
+region = Rect2(64, 641, 190, 278)
+margin = Rect2(99, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_n_1"]
+atlas = ExtResource("walk_n")
+region = Rect2(378, 641, 190, 278)
+margin = Rect2(99, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_n_2"]
+atlas = ExtResource("walk_n")
+region = Rect2(691, 641, 190, 278)
+margin = Rect2(99, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_n_3"]
+atlas = ExtResource("walk_n")
+region = Rect2(1004, 641, 190, 278)
+margin = Rect2(99, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_n_4"]
+atlas = ExtResource("walk_n")
+region = Rect2(64, 954, 190, 278)
+margin = Rect2(99, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_n_5"]
+atlas = ExtResource("walk_n")
+region = Rect2(378, 954, 190, 278)
+margin = Rect2(99, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_n_6"]
+atlas = ExtResource("walk_n")
+region = Rect2(691, 954, 190, 278)
+margin = Rect2(99, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_n_7"]
+atlas = ExtResource("walk_n")
+region = Rect2(1004, 954, 190, 278)
+margin = Rect2(99, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne_0"]
+atlas = ExtResource("walk_ne")
+region = Rect2(68, 19, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne_1"]
+atlas = ExtResource("walk_ne")
+region = Rect2(382, 19, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne_2"]
+atlas = ExtResource("walk_ne")
+region = Rect2(695, 19, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne_3"]
+atlas = ExtResource("walk_ne")
+region = Rect2(1008, 19, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne_4"]
+atlas = ExtResource("walk_ne")
+region = Rect2(68, 333, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne_5"]
+atlas = ExtResource("walk_ne")
+region = Rect2(382, 333, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne_6"]
+atlas = ExtResource("walk_ne")
+region = Rect2(695, 333, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_ne_7"]
+atlas = ExtResource("walk_ne")
+region = Rect2(1008, 333, 182, 277)
+margin = Rect2(103, 64, 202, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne_0"]
+atlas = ExtResource("walk_ne")
+region = Rect2(64, 645, 185, 280)
+margin = Rect2(99, 61, 199, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne_1"]
+atlas = ExtResource("walk_ne")
+region = Rect2(378, 645, 185, 280)
+margin = Rect2(99, 61, 199, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne_2"]
+atlas = ExtResource("walk_ne")
+region = Rect2(691, 645, 185, 280)
+margin = Rect2(99, 61, 199, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne_3"]
+atlas = ExtResource("walk_ne")
+region = Rect2(1004, 645, 185, 280)
+margin = Rect2(99, 61, 199, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne_4"]
+atlas = ExtResource("walk_ne")
+region = Rect2(64, 958, 185, 280)
+margin = Rect2(99, 61, 199, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne_5"]
+atlas = ExtResource("walk_ne")
+region = Rect2(378, 958, 185, 280)
+margin = Rect2(99, 61, 199, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne_6"]
+atlas = ExtResource("walk_ne")
+region = Rect2(691, 958, 185, 280)
+margin = Rect2(99, 61, 199, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_ne_7"]
+atlas = ExtResource("walk_ne")
+region = Rect2(1004, 958, 185, 280)
+margin = Rect2(99, 61, 199, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e_0"]
+atlas = ExtResource("walk_e")
+region = Rect2(79, 11, 177, 282)
+margin = Rect2(114, 59, 207, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e_1"]
+atlas = ExtResource("walk_e")
+region = Rect2(393, 11, 177, 282)
+margin = Rect2(114, 59, 207, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e_2"]
+atlas = ExtResource("walk_e")
+region = Rect2(706, 11, 177, 282)
+margin = Rect2(114, 59, 207, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e_3"]
+atlas = ExtResource("walk_e")
+region = Rect2(1019, 11, 177, 282)
+margin = Rect2(114, 59, 207, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e_4"]
+atlas = ExtResource("walk_e")
+region = Rect2(79, 325, 177, 282)
+margin = Rect2(114, 59, 207, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e_5"]
+atlas = ExtResource("walk_e")
+region = Rect2(393, 325, 177, 282)
+margin = Rect2(114, 59, 207, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e_6"]
+atlas = ExtResource("walk_e")
+region = Rect2(706, 325, 177, 282)
+margin = Rect2(114, 59, 207, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_e_7"]
+atlas = ExtResource("walk_e")
+region = Rect2(1019, 325, 177, 282)
+margin = Rect2(114, 59, 207, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e_0"]
+atlas = ExtResource("walk_e")
+region = Rect2(77, 632, 179, 297)
+margin = Rect2(112, 44, 205, 87)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e_1"]
+atlas = ExtResource("walk_e")
+region = Rect2(391, 632, 179, 297)
+margin = Rect2(112, 44, 205, 87)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e_2"]
+atlas = ExtResource("walk_e")
+region = Rect2(704, 632, 179, 297)
+margin = Rect2(112, 44, 205, 87)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e_3"]
+atlas = ExtResource("walk_e")
+region = Rect2(1017, 632, 179, 297)
+margin = Rect2(112, 44, 205, 87)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e_4"]
+atlas = ExtResource("walk_e")
+region = Rect2(77, 945, 179, 297)
+margin = Rect2(112, 44, 205, 87)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e_5"]
+atlas = ExtResource("walk_e")
+region = Rect2(391, 945, 179, 297)
+margin = Rect2(112, 44, 205, 87)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e_6"]
+atlas = ExtResource("walk_e")
+region = Rect2(704, 945, 179, 297)
+margin = Rect2(112, 44, 205, 87)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_e_7"]
+atlas = ExtResource("walk_e")
+region = Rect2(1017, 945, 179, 297)
+margin = Rect2(112, 44, 205, 87)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se_0"]
+atlas = ExtResource("walk_se")
+region = Rect2(67, 12, 181, 289)
+margin = Rect2(102, 52, 203, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se_1"]
+atlas = ExtResource("walk_se")
+region = Rect2(381, 12, 181, 289)
+margin = Rect2(102, 52, 203, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se_2"]
+atlas = ExtResource("walk_se")
+region = Rect2(694, 12, 181, 289)
+margin = Rect2(102, 52, 203, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se_3"]
+atlas = ExtResource("walk_se")
+region = Rect2(1007, 12, 181, 289)
+margin = Rect2(102, 52, 203, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se_4"]
+atlas = ExtResource("walk_se")
+region = Rect2(67, 326, 181, 289)
+margin = Rect2(102, 52, 203, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se_5"]
+atlas = ExtResource("walk_se")
+region = Rect2(381, 326, 181, 289)
+margin = Rect2(102, 52, 203, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se_6"]
+atlas = ExtResource("walk_se")
+region = Rect2(694, 326, 181, 289)
+margin = Rect2(102, 52, 203, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_se_7"]
+atlas = ExtResource("walk_se")
+region = Rect2(1007, 326, 181, 289)
+margin = Rect2(102, 52, 203, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se_0"]
+atlas = ExtResource("walk_se")
+region = Rect2(67, 644, 183, 282)
+margin = Rect2(102, 59, 201, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se_1"]
+atlas = ExtResource("walk_se")
+region = Rect2(381, 644, 183, 282)
+margin = Rect2(102, 59, 201, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se_2"]
+atlas = ExtResource("walk_se")
+region = Rect2(694, 644, 183, 282)
+margin = Rect2(102, 59, 201, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se_3"]
+atlas = ExtResource("walk_se")
+region = Rect2(1007, 644, 183, 282)
+margin = Rect2(102, 59, 201, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se_4"]
+atlas = ExtResource("walk_se")
+region = Rect2(67, 957, 183, 282)
+margin = Rect2(102, 59, 201, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se_5"]
+atlas = ExtResource("walk_se")
+region = Rect2(381, 957, 183, 282)
+margin = Rect2(102, 59, 201, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se_6"]
+atlas = ExtResource("walk_se")
+region = Rect2(694, 957, 183, 282)
+margin = Rect2(102, 59, 201, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_se_7"]
+atlas = ExtResource("walk_se")
+region = Rect2(1007, 957, 183, 282)
+margin = Rect2(102, 59, 201, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s_0"]
+atlas = ExtResource("walk_s")
+region = Rect2(65, 18, 188, 280)
+margin = Rect2(100, 61, 196, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s_1"]
+atlas = ExtResource("walk_s")
+region = Rect2(379, 18, 188, 280)
+margin = Rect2(100, 61, 196, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s_2"]
+atlas = ExtResource("walk_s")
+region = Rect2(692, 18, 188, 280)
+margin = Rect2(100, 61, 196, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s_3"]
+atlas = ExtResource("walk_s")
+region = Rect2(1005, 18, 188, 280)
+margin = Rect2(100, 61, 196, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s_4"]
+atlas = ExtResource("walk_s")
+region = Rect2(65, 332, 188, 280)
+margin = Rect2(100, 61, 196, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s_5"]
+atlas = ExtResource("walk_s")
+region = Rect2(379, 332, 188, 280)
+margin = Rect2(100, 61, 196, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s_6"]
+atlas = ExtResource("walk_s")
+region = Rect2(692, 332, 188, 280)
+margin = Rect2(100, 61, 196, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_s_7"]
+atlas = ExtResource("walk_s")
+region = Rect2(1005, 332, 188, 280)
+margin = Rect2(100, 61, 196, 104)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s_0"]
+atlas = ExtResource("walk_s")
+region = Rect2(63, 647, 190, 278)
+margin = Rect2(98, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s_1"]
+atlas = ExtResource("walk_s")
+region = Rect2(377, 647, 190, 278)
+margin = Rect2(98, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s_2"]
+atlas = ExtResource("walk_s")
+region = Rect2(690, 647, 190, 278)
+margin = Rect2(98, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s_3"]
+atlas = ExtResource("walk_s")
+region = Rect2(1003, 647, 190, 278)
+margin = Rect2(98, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s_4"]
+atlas = ExtResource("walk_s")
+region = Rect2(63, 960, 190, 278)
+margin = Rect2(98, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s_5"]
+atlas = ExtResource("walk_s")
+region = Rect2(377, 960, 190, 278)
+margin = Rect2(98, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s_6"]
+atlas = ExtResource("walk_s")
+region = Rect2(690, 960, 190, 278)
+margin = Rect2(98, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_s_7"]
+atlas = ExtResource("walk_s")
+region = Rect2(1003, 960, 190, 278)
+margin = Rect2(98, 63, 194, 106)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw_0"]
+atlas = ExtResource("walk_sw")
+region = Rect2(62, 12, 204, 289)
+margin = Rect2(97, 52, 180, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw_1"]
+atlas = ExtResource("walk_sw")
+region = Rect2(376, 12, 204, 289)
+margin = Rect2(97, 52, 180, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw_2"]
+atlas = ExtResource("walk_sw")
+region = Rect2(689, 12, 204, 289)
+margin = Rect2(97, 52, 180, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw_3"]
+atlas = ExtResource("walk_sw")
+region = Rect2(1002, 12, 204, 289)
+margin = Rect2(97, 52, 180, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw_4"]
+atlas = ExtResource("walk_sw")
+region = Rect2(62, 326, 204, 289)
+margin = Rect2(97, 52, 180, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw_5"]
+atlas = ExtResource("walk_sw")
+region = Rect2(376, 326, 204, 289)
+margin = Rect2(97, 52, 180, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw_6"]
+atlas = ExtResource("walk_sw")
+region = Rect2(689, 326, 204, 289)
+margin = Rect2(97, 52, 180, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_sw_7"]
+atlas = ExtResource("walk_sw")
+region = Rect2(1002, 326, 204, 289)
+margin = Rect2(97, 52, 180, 95)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw_0"]
+atlas = ExtResource("walk_sw")
+region = Rect2(57, 644, 209, 284)
+margin = Rect2(92, 57, 175, 100)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw_1"]
+atlas = ExtResource("walk_sw")
+region = Rect2(371, 644, 209, 284)
+margin = Rect2(92, 57, 175, 100)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw_2"]
+atlas = ExtResource("walk_sw")
+region = Rect2(684, 644, 209, 284)
+margin = Rect2(92, 57, 175, 100)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw_3"]
+atlas = ExtResource("walk_sw")
+region = Rect2(997, 644, 209, 284)
+margin = Rect2(92, 57, 175, 100)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw_4"]
+atlas = ExtResource("walk_sw")
+region = Rect2(57, 957, 209, 284)
+margin = Rect2(92, 57, 175, 100)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw_5"]
+atlas = ExtResource("walk_sw")
+region = Rect2(371, 957, 209, 284)
+margin = Rect2(92, 57, 175, 100)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw_6"]
+atlas = ExtResource("walk_sw")
+region = Rect2(684, 957, 209, 284)
+margin = Rect2(92, 57, 175, 100)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_sw_7"]
+atlas = ExtResource("walk_sw")
+region = Rect2(997, 957, 209, 284)
+margin = Rect2(92, 57, 175, 100)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w_0"]
+atlas = ExtResource("walk_w")
+region = Rect2(84, 13, 164, 281)
+margin = Rect2(119, 60, 220, 103)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w_1"]
+atlas = ExtResource("walk_w")
+region = Rect2(398, 13, 164, 281)
+margin = Rect2(119, 60, 220, 103)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w_2"]
+atlas = ExtResource("walk_w")
+region = Rect2(711, 13, 164, 281)
+margin = Rect2(119, 60, 220, 103)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w_3"]
+atlas = ExtResource("walk_w")
+region = Rect2(1024, 13, 164, 281)
+margin = Rect2(119, 60, 220, 103)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w_4"]
+atlas = ExtResource("walk_w")
+region = Rect2(84, 327, 164, 281)
+margin = Rect2(119, 60, 220, 103)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w_5"]
+atlas = ExtResource("walk_w")
+region = Rect2(398, 327, 164, 281)
+margin = Rect2(119, 60, 220, 103)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w_6"]
+atlas = ExtResource("walk_w")
+region = Rect2(711, 327, 164, 281)
+margin = Rect2(119, 60, 220, 103)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_w_7"]
+atlas = ExtResource("walk_w")
+region = Rect2(1024, 327, 164, 281)
+margin = Rect2(119, 60, 220, 103)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w_0"]
+atlas = ExtResource("walk_w")
+region = Rect2(76, 641, 168, 285)
+margin = Rect2(111, 56, 216, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w_1"]
+atlas = ExtResource("walk_w")
+region = Rect2(390, 641, 168, 285)
+margin = Rect2(111, 56, 216, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w_2"]
+atlas = ExtResource("walk_w")
+region = Rect2(703, 641, 168, 285)
+margin = Rect2(111, 56, 216, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w_3"]
+atlas = ExtResource("walk_w")
+region = Rect2(1016, 641, 168, 285)
+margin = Rect2(111, 56, 216, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w_4"]
+atlas = ExtResource("walk_w")
+region = Rect2(76, 954, 168, 285)
+margin = Rect2(111, 56, 216, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w_5"]
+atlas = ExtResource("walk_w")
+region = Rect2(390, 954, 168, 285)
+margin = Rect2(111, 56, 216, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w_6"]
+atlas = ExtResource("walk_w")
+region = Rect2(703, 954, 168, 285)
+margin = Rect2(111, 56, 216, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_w_7"]
+atlas = ExtResource("walk_w")
+region = Rect2(1016, 954, 168, 285)
+margin = Rect2(111, 56, 216, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw_0"]
+atlas = ExtResource("walk_nw")
+region = Rect2(64, 9, 193, 285)
+margin = Rect2(99, 56, 191, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw_1"]
+atlas = ExtResource("walk_nw")
+region = Rect2(378, 9, 193, 285)
+margin = Rect2(99, 56, 191, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw_2"]
+atlas = ExtResource("walk_nw")
+region = Rect2(691, 9, 193, 285)
+margin = Rect2(99, 56, 191, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw_3"]
+atlas = ExtResource("walk_nw")
+region = Rect2(1004, 9, 193, 285)
+margin = Rect2(99, 56, 191, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw_4"]
+atlas = ExtResource("walk_nw")
+region = Rect2(64, 323, 193, 285)
+margin = Rect2(99, 56, 191, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw_5"]
+atlas = ExtResource("walk_nw")
+region = Rect2(378, 323, 193, 285)
+margin = Rect2(99, 56, 191, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw_6"]
+atlas = ExtResource("walk_nw")
+region = Rect2(691, 323, 193, 285)
+margin = Rect2(99, 56, 191, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="classic_nw_7"]
+atlas = ExtResource("walk_nw")
+region = Rect2(1004, 323, 193, 285)
+margin = Rect2(99, 56, 191, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw_0"]
+atlas = ExtResource("walk_nw")
+region = Rect2(64, 644, 199, 277)
+margin = Rect2(99, 64, 185, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw_1"]
+atlas = ExtResource("walk_nw")
+region = Rect2(378, 644, 199, 277)
+margin = Rect2(99, 64, 185, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw_2"]
+atlas = ExtResource("walk_nw")
+region = Rect2(691, 644, 199, 277)
+margin = Rect2(99, 64, 185, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw_3"]
+atlas = ExtResource("walk_nw")
+region = Rect2(1004, 644, 199, 277)
+margin = Rect2(99, 64, 185, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw_4"]
+atlas = ExtResource("walk_nw")
+region = Rect2(64, 957, 199, 277)
+margin = Rect2(99, 64, 185, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw_5"]
+atlas = ExtResource("walk_nw")
+region = Rect2(378, 957, 199, 277)
+margin = Rect2(99, 64, 185, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw_6"]
+atlas = ExtResource("walk_nw")
+region = Rect2(691, 957, 199, 277)
+margin = Rect2(99, 64, 185, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="isometric_nw_7"]
+atlas = ExtResource("walk_nw")
+region = Rect2(1004, 957, 199, 277)
+margin = Rect2(99, 64, 185, 107)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("isometric_n")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_ne")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_e")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_se")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_s")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_sw")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_w")
+}, {
+"duration": 1.0,
+"texture": SubResource("isometric_nw")
+}],
+"loop": 1,
+"name": &"idle_isometrico",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("classic_n")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_ne")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_e")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_se")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_s")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_sw")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_w")
+}, {
+"duration": 1.0,
+"texture": SubResource("classic_nw")
+}],
+"loop": 1,
+"name": &"idle_normal",
+"speed": 4.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("classic_n_0")},
+{"duration": 1.0, "texture": SubResource("classic_n_1")},
+{"duration": 1.0, "texture": SubResource("classic_n_2")},
+{"duration": 1.0, "texture": SubResource("classic_n_3")},
+{"duration": 1.0, "texture": SubResource("classic_n_4")},
+{"duration": 1.0, "texture": SubResource("classic_n_5")},
+{"duration": 1.0, "texture": SubResource("classic_n_6")},
+{"duration": 1.0, "texture": SubResource("classic_n_7")}],
+"loop": true,
+"name": &"walk_n",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("classic_ne_0")},
+{"duration": 1.0, "texture": SubResource("classic_ne_1")},
+{"duration": 1.0, "texture": SubResource("classic_ne_2")},
+{"duration": 1.0, "texture": SubResource("classic_ne_3")},
+{"duration": 1.0, "texture": SubResource("classic_ne_4")},
+{"duration": 1.0, "texture": SubResource("classic_ne_5")},
+{"duration": 1.0, "texture": SubResource("classic_ne_6")},
+{"duration": 1.0, "texture": SubResource("classic_ne_7")}],
+"loop": true,
+"name": &"walk_ne",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("classic_e_0")},
+{"duration": 1.0, "texture": SubResource("classic_e_1")},
+{"duration": 1.0, "texture": SubResource("classic_e_2")},
+{"duration": 1.0, "texture": SubResource("classic_e_3")},
+{"duration": 1.0, "texture": SubResource("classic_e_4")},
+{"duration": 1.0, "texture": SubResource("classic_e_5")},
+{"duration": 1.0, "texture": SubResource("classic_e_6")},
+{"duration": 1.0, "texture": SubResource("classic_e_7")}],
+"loop": true,
+"name": &"walk_e",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("classic_se_0")},
+{"duration": 1.0, "texture": SubResource("classic_se_1")},
+{"duration": 1.0, "texture": SubResource("classic_se_2")},
+{"duration": 1.0, "texture": SubResource("classic_se_3")},
+{"duration": 1.0, "texture": SubResource("classic_se_4")},
+{"duration": 1.0, "texture": SubResource("classic_se_5")},
+{"duration": 1.0, "texture": SubResource("classic_se_6")},
+{"duration": 1.0, "texture": SubResource("classic_se_7")}],
+"loop": true,
+"name": &"walk_se",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("classic_s_0")},
+{"duration": 1.0, "texture": SubResource("classic_s_1")},
+{"duration": 1.0, "texture": SubResource("classic_s_2")},
+{"duration": 1.0, "texture": SubResource("classic_s_3")},
+{"duration": 1.0, "texture": SubResource("classic_s_4")},
+{"duration": 1.0, "texture": SubResource("classic_s_5")},
+{"duration": 1.0, "texture": SubResource("classic_s_6")},
+{"duration": 1.0, "texture": SubResource("classic_s_7")}],
+"loop": true,
+"name": &"walk_s",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("classic_sw_0")},
+{"duration": 1.0, "texture": SubResource("classic_sw_1")},
+{"duration": 1.0, "texture": SubResource("classic_sw_2")},
+{"duration": 1.0, "texture": SubResource("classic_sw_3")},
+{"duration": 1.0, "texture": SubResource("classic_sw_4")},
+{"duration": 1.0, "texture": SubResource("classic_sw_5")},
+{"duration": 1.0, "texture": SubResource("classic_sw_6")},
+{"duration": 1.0, "texture": SubResource("classic_sw_7")}],
+"loop": true,
+"name": &"walk_sw",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("classic_w_0")},
+{"duration": 1.0, "texture": SubResource("classic_w_1")},
+{"duration": 1.0, "texture": SubResource("classic_w_2")},
+{"duration": 1.0, "texture": SubResource("classic_w_3")},
+{"duration": 1.0, "texture": SubResource("classic_w_4")},
+{"duration": 1.0, "texture": SubResource("classic_w_5")},
+{"duration": 1.0, "texture": SubResource("classic_w_6")},
+{"duration": 1.0, "texture": SubResource("classic_w_7")}],
+"loop": true,
+"name": &"walk_w",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("classic_nw_0")},
+{"duration": 1.0, "texture": SubResource("classic_nw_1")},
+{"duration": 1.0, "texture": SubResource("classic_nw_2")},
+{"duration": 1.0, "texture": SubResource("classic_nw_3")},
+{"duration": 1.0, "texture": SubResource("classic_nw_4")},
+{"duration": 1.0, "texture": SubResource("classic_nw_5")},
+{"duration": 1.0, "texture": SubResource("classic_nw_6")},
+{"duration": 1.0, "texture": SubResource("classic_nw_7")}],
+"loop": true,
+"name": &"walk_nw",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("classic_s_0")},
+{"duration": 1.0, "texture": SubResource("classic_s_1")},
+{"duration": 1.0, "texture": SubResource("classic_s_2")},
+{"duration": 1.0, "texture": SubResource("classic_s_3")},
+{"duration": 1.0, "texture": SubResource("classic_s_4")},
+{"duration": 1.0, "texture": SubResource("classic_s_5")},
+{"duration": 1.0, "texture": SubResource("classic_s_6")},
+{"duration": 1.0, "texture": SubResource("classic_s_7")}],
+"loop": true,
+"name": &"walk",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("isometric_n_0")},
+{"duration": 1.0, "texture": SubResource("isometric_n_1")},
+{"duration": 1.0, "texture": SubResource("isometric_n_2")},
+{"duration": 1.0, "texture": SubResource("isometric_n_3")},
+{"duration": 1.0, "texture": SubResource("isometric_n_4")},
+{"duration": 1.0, "texture": SubResource("isometric_n_5")},
+{"duration": 1.0, "texture": SubResource("isometric_n_6")},
+{"duration": 1.0, "texture": SubResource("isometric_n_7")}],
+"loop": true,
+"name": &"walk_isometrico_n",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("isometric_ne_0")},
+{"duration": 1.0, "texture": SubResource("isometric_ne_1")},
+{"duration": 1.0, "texture": SubResource("isometric_ne_2")},
+{"duration": 1.0, "texture": SubResource("isometric_ne_3")},
+{"duration": 1.0, "texture": SubResource("isometric_ne_4")},
+{"duration": 1.0, "texture": SubResource("isometric_ne_5")},
+{"duration": 1.0, "texture": SubResource("isometric_ne_6")},
+{"duration": 1.0, "texture": SubResource("isometric_ne_7")}],
+"loop": true,
+"name": &"walk_isometrico_ne",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("isometric_e_0")},
+{"duration": 1.0, "texture": SubResource("isometric_e_1")},
+{"duration": 1.0, "texture": SubResource("isometric_e_2")},
+{"duration": 1.0, "texture": SubResource("isometric_e_3")},
+{"duration": 1.0, "texture": SubResource("isometric_e_4")},
+{"duration": 1.0, "texture": SubResource("isometric_e_5")},
+{"duration": 1.0, "texture": SubResource("isometric_e_6")},
+{"duration": 1.0, "texture": SubResource("isometric_e_7")}],
+"loop": true,
+"name": &"walk_isometrico_e",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("isometric_se_0")},
+{"duration": 1.0, "texture": SubResource("isometric_se_1")},
+{"duration": 1.0, "texture": SubResource("isometric_se_2")},
+{"duration": 1.0, "texture": SubResource("isometric_se_3")},
+{"duration": 1.0, "texture": SubResource("isometric_se_4")},
+{"duration": 1.0, "texture": SubResource("isometric_se_5")},
+{"duration": 1.0, "texture": SubResource("isometric_se_6")},
+{"duration": 1.0, "texture": SubResource("isometric_se_7")}],
+"loop": true,
+"name": &"walk_isometrico_se",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("isometric_s_0")},
+{"duration": 1.0, "texture": SubResource("isometric_s_1")},
+{"duration": 1.0, "texture": SubResource("isometric_s_2")},
+{"duration": 1.0, "texture": SubResource("isometric_s_3")},
+{"duration": 1.0, "texture": SubResource("isometric_s_4")},
+{"duration": 1.0, "texture": SubResource("isometric_s_5")},
+{"duration": 1.0, "texture": SubResource("isometric_s_6")},
+{"duration": 1.0, "texture": SubResource("isometric_s_7")}],
+"loop": true,
+"name": &"walk_isometrico_s",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("isometric_sw_0")},
+{"duration": 1.0, "texture": SubResource("isometric_sw_1")},
+{"duration": 1.0, "texture": SubResource("isometric_sw_2")},
+{"duration": 1.0, "texture": SubResource("isometric_sw_3")},
+{"duration": 1.0, "texture": SubResource("isometric_sw_4")},
+{"duration": 1.0, "texture": SubResource("isometric_sw_5")},
+{"duration": 1.0, "texture": SubResource("isometric_sw_6")},
+{"duration": 1.0, "texture": SubResource("isometric_sw_7")}],
+"loop": true,
+"name": &"walk_isometrico_sw",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("isometric_w_0")},
+{"duration": 1.0, "texture": SubResource("isometric_w_1")},
+{"duration": 1.0, "texture": SubResource("isometric_w_2")},
+{"duration": 1.0, "texture": SubResource("isometric_w_3")},
+{"duration": 1.0, "texture": SubResource("isometric_w_4")},
+{"duration": 1.0, "texture": SubResource("isometric_w_5")},
+{"duration": 1.0, "texture": SubResource("isometric_w_6")},
+{"duration": 1.0, "texture": SubResource("isometric_w_7")}],
+"loop": true,
+"name": &"walk_isometrico_w",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("isometric_nw_0")},
+{"duration": 1.0, "texture": SubResource("isometric_nw_1")},
+{"duration": 1.0, "texture": SubResource("isometric_nw_2")},
+{"duration": 1.0, "texture": SubResource("isometric_nw_3")},
+{"duration": 1.0, "texture": SubResource("isometric_nw_4")},
+{"duration": 1.0, "texture": SubResource("isometric_nw_5")},
+{"duration": 1.0, "texture": SubResource("isometric_nw_6")},
+{"duration": 1.0, "texture": SubResource("isometric_nw_7")}],
+"loop": true,
+"name": &"walk_isometrico_nw",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": SubResource("isometric_s_0")},
+{"duration": 1.0, "texture": SubResource("isometric_s_1")},
+{"duration": 1.0, "texture": SubResource("isometric_s_2")},
+{"duration": 1.0, "texture": SubResource("isometric_s_3")},
+{"duration": 1.0, "texture": SubResource("isometric_s_4")},
+{"duration": 1.0, "texture": SubResource("isometric_s_5")},
+{"duration": 1.0, "texture": SubResource("isometric_s_6")},
+{"duration": 1.0, "texture": SubResource("isometric_s_7")}],
+"loop": true,
+"name": &"walk_isometrico",
+"speed": 8.0
+}]
